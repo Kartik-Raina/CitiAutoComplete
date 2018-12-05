@@ -1,0 +1,261 @@
+2018-Dec-06 00:24:39.367 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Starting PramatiCitiAutoCompleteApplicationTests on WKWIN4811169 with PID 19192 (started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:24:39.369 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:24:41.276 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:24:41.334 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2018-Dec-06 00:24:42.321 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d311b372] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:24:43.621 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2018-Dec-06 00:24:43.686 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:24:43.687 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:24:43.836 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:24:44.118 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:24:44.119 DEBUG [main] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:24:44.120 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 4693 ms
+2018-Dec-06 00:24:45.052 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:24:45.970 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:24:46.702 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:24:47.293 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:24:47.310 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:24:47.679 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:24:48.092 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:24:48.469 INFO  [main] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7b25ab31'
+2018-Dec-06 00:24:48.472 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:24:48.673 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:24:49.229 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:24:49.266 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:24:49.373 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:24:49.485 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:24:49.560 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:24:49.591 DEBUG [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:24:50.234 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 59226 (http) with context path ''
+2018-Dec-06 00:24:50.240 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Started PramatiCitiAutoCompleteApplicationTests in 11.552 seconds (JVM running for 13.284)
+2018-Dec-06 00:24:50.244 INFO  [main] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:24:50.791 INFO  [main] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:24:51.043 INFO  [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:24:51.048 INFO  [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:24:51.048 INFO  [Thread-4] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:24:51.063 INFO  [Thread-4] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:24:51.064 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:24:51.092 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-Dec-06 00:31:37.299 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - Starting PramatiCityAutoCompleteApplication on WKWIN4811169 with PID 8720 (D:\Marriott\Workspace\Pramati-CityAutoComplete\target\classes started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:31:37.304 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:31:37.395 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-Dec-06 00:31:37.395 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-Dec-06 00:31:38.692 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:31:38.731 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2018-Dec-06 00:31:39.374 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24a608a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:31:39.998 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9080 (http)
+2018-Dec-06 00:31:40.029 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:31:40.029 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:31:40.042 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:31:40.208 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:31:40.209 DEBUG [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:31:40.211 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2815 ms
+2018-Dec-06 00:31:40.593 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:31:40.795 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:31:40.886 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:31:40.976 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:31:40.978 INFO  [restartedMain] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:31:41.203 INFO  [restartedMain] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:31:41.380 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:31:41.689 INFO  [restartedMain] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5a7886d8'
+2018-Dec-06 00:31:41.694 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:31:41.772 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-Dec-06 00:31:41.877 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:31:42.109 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:31:42.128 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:31:42.203 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:31:42.309 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:31:42.467 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:31:42.518 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:31:43.291 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9080 (http) with context path ''
+2018-Dec-06 00:31:43.306 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - Started PramatiCityAutoCompleteApplication in 6.542 seconds (JVM running for 7.468)
+2018-Dec-06 00:31:43.319 INFO  [restartedMain] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:31:44.675 INFO  [restartedMain] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:31:57.035 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-Dec-06 00:31:57.038 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:31:57.039 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:31:57.040 INFO  [RMI TCP Connection(2)-127.0.0.1] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:31:57.046 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:31:57.046 INFO  [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:31:57.050 INFO  [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-Dec-06 00:32:27.600 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Starting PramatiCitiAutoCompleteApplicationTests on WKWIN4811169 with PID 12616 (started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:32:27.602 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:32:29.150 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:32:29.194 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2018-Dec-06 00:32:29.863 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86cd2c75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:32:30.846 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2018-Dec-06 00:32:30.888 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:32:30.890 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:32:31.014 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:32:31.170 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:32:31.170 DEBUG [main] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:32:31.170 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 3521 ms
+2018-Dec-06 00:32:31.526 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:32:31.807 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:32:32.007 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:32:32.114 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:32:32.120 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:32:32.480 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:32:32.759 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:32:33.241 INFO  [main] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7792d851'
+2018-Dec-06 00:32:33.246 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:32:33.467 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:32:34.031 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:32:34.067 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:32:34.152 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:32:34.268 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:32:34.322 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:32:34.352 DEBUG [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:32:35.314 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 55048 (http) with context path ''
+2018-Dec-06 00:32:35.330 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Started PramatiCitiAutoCompleteApplicationTests in 8.611 seconds (JVM running for 11.484)
+2018-Dec-06 00:32:35.339 INFO  [main] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:32:37.045 INFO  [main] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:32:37.546 INFO  [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:32:37.556 INFO  [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:32:37.561 INFO  [Thread-4] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:32:37.618 INFO  [Thread-4] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:32:37.619 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:32:37.651 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-Dec-06 00:53:10.912 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - Starting PramatiCityAutoCompleteApplication on WKWIN4811169 with PID 19628 (D:\Marriott\Workspace\Pramati-CityAutoComplete\target\classes started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:53:10.916 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:53:10.993 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-Dec-06 00:53:10.994 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-Dec-06 00:53:12.336 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:53:12.379 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2018-Dec-06 00:53:13.012 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52867c9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:53:13.633 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9080 (http)
+2018-Dec-06 00:53:13.670 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:53:13.672 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:53:13.695 INFO  [restartedMain] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:53:13.870 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:53:13.872 DEBUG [restartedMain] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:53:13.875 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2881 ms
+2018-Dec-06 00:53:14.239 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:53:14.439 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:53:14.532 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:53:14.621 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:53:14.624 INFO  [restartedMain] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:53:14.799 INFO  [restartedMain] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:53:14.967 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:53:15.322 INFO  [restartedMain] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@10a62bb1'
+2018-Dec-06 00:53:15.328 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:53:15.435 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-Dec-06 00:53:15.555 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:53:15.820 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:53:15.837 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:53:15.906 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:53:15.964 DEBUG [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:53:15.984 DEBUG [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:53:16.002 DEBUG [restartedMain] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:53:16.267 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9080 (http) with context path ''
+2018-Dec-06 00:53:16.273 INFO  [restartedMain] c.p.c.a.PramatiCityAutoCompleteApplication - Started PramatiCityAutoCompleteApplication in 5.993 seconds (JVM running for 6.877)
+2018-Dec-06 00:53:16.278 INFO  [restartedMain] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:53:17.682 INFO  [restartedMain] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:53:35.076 INFO  [http-nio-9080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-Dec-06 00:53:35.077 INFO  [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-Dec-06 00:53:35.077 DEBUG [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+2018-Dec-06 00:53:35.089 DEBUG [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2018-Dec-06 00:53:35.089 INFO  [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 12 ms
+2018-Dec-06 00:53:35.107 DEBUG [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - GET "/suggest_cities?start=ambala&atmost=10", parameters={masked}
+2018-Dec-06 00:53:35.113 DEBUG [http-nio-9080-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.List<java.lang.String> com.pramati.city.autocomplete.controller.CityAutoCompleteController.getCityNames(java.lang.String,int)
+2018-Dec-06 00:53:35.294 DEBUG [http-nio-9080-exec-1] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2018-Dec-06 00:53:35.295 DEBUG [http-nio-9080-exec-1] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[ambala city, ambalapuha, ambalapuzha, ambala city ho, ambalapuzh a, ambala, ambalappuzha]]
+2018-Dec-06 00:53:35.342 DEBUG [http-nio-9080-exec-1] o.s.w.s.DispatcherServlet - Completed 200 OK
+2018-Dec-06 00:53:36.122 DEBUG [http-nio-9080-exec-2] o.s.w.s.DispatcherServlet - GET "/favicon.ico", parameters={}
+2018-Dec-06 00:53:36.125 DEBUG [http-nio-9080-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2018-Dec-06 00:53:36.157 DEBUG [http-nio-9080-exec-2] o.s.w.s.DispatcherServlet - Completed 200 OK
+2018-Dec-06 00:53:42.653 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-Dec-06 00:53:42.656 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:53:42.657 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:53:42.657 INFO  [RMI TCP Connection(2)-127.0.0.1] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:53:42.664 INFO  [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:53:42.664 INFO  [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:53:42.668 INFO  [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-Dec-06 00:54:35.554 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Starting PramatiCitiAutoCompleteApplicationTests on WKWIN4811169 with PID 14084 (started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:54:35.559 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:54:37.203 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:54:37.275 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2018-Dec-06 00:54:38.942 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e2387fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:54:39.905 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2018-Dec-06 00:54:39.940 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:54:39.941 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:54:40.062 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:54:40.221 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:54:40.224 DEBUG [main] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:54:40.226 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 4631 ms
+2018-Dec-06 00:54:40.616 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:54:40.829 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:54:40.995 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:54:41.176 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:54:41.179 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:54:41.537 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:54:41.828 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:54:42.260 INFO  [main] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1235151c'
+2018-Dec-06 00:54:42.264 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:54:42.475 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:54:43.104 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:54:43.141 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:54:43.223 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:54:43.402 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:54:43.584 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:54:43.680 DEBUG [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:54:45.335 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 55513 (http) with context path ''
+2018-Dec-06 00:54:45.368 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Started PramatiCitiAutoCompleteApplicationTests in 10.333 seconds (JVM running for 12.657)
+2018-Dec-06 00:54:45.379 INFO  [main] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:54:46.805 INFO  [main] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:54:46.963 INFO  [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:54:46.965 INFO  [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:54:46.966 INFO  [Thread-4] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:54:46.974 INFO  [Thread-4] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:54:46.975 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:54:46.982 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-Dec-06 00:57:16.366 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Starting PramatiCitiAutoCompleteApplicationTests on WKWIN4811169 with PID 8168 (started by karraina in D:\Marriott\Workspace\Pramati-CityAutoComplete)
+2018-Dec-06 00:57:16.367 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - No active profile set, falling back to default profiles: default
+2018-Dec-06 00:57:18.080 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-Dec-06 00:57:18.126 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2018-Dec-06 00:57:19.117 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40386111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Dec-06 00:57:20.093 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2018-Dec-06 00:57:20.132 INFO  [main] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Dec-06 00:57:20.133 INFO  [main] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-Dec-06 00:57:20.257 INFO  [main] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\sbt\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_66\bin;;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\IBM\IBM Tealeaf CX\;C:\Users\karraina\AppData\Local\Microsoft\WindowsApps;D:\eclipse\eclipse;;.]
+2018-Dec-06 00:57:20.469 INFO  [main] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Dec-06 00:57:20.469 DEBUG [main] o.s.w.c.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-Dec-06 00:57:20.470 INFO  [main] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 4056 ms
+2018-Dec-06 00:57:20.837 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2018-Dec-06 00:57:21.093 INFO  [main] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2018-Dec-06 00:57:21.252 INFO  [main] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Dec-06 00:57:21.428 INFO  [main] o.h.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-Dec-06 00:57:21.431 INFO  [main] o.h.c.Environment - HHH000206: hibernate.properties not found
+2018-Dec-06 00:57:21.747 INFO  [main] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-Dec-06 00:57:21.974 INFO  [main] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-Dec-06 00:57:22.411 INFO  [main] o.h.t.s.i.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7e1ffe70'
+2018-Dec-06 00:57:22.414 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:57:22.652 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-Dec-06 00:57:23.209 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:57:23.247 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-Dec-06 00:57:23.327 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-Dec-06 00:57:23.437 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2018-Dec-06 00:57:23.491 DEBUG [main] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-Dec-06 00:57:23.514 DEBUG [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-Dec-06 00:57:25.043 INFO  [main] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 55580 (http) with context path ''
+2018-Dec-06 00:57:25.060 INFO  [main] c.p.c.a.PramatiCitiAutoCompleteApplicationTests - Started PramatiCitiAutoCompleteApplicationTests in 9.585 seconds (JVM running for 12.756)
+2018-Dec-06 00:57:25.069 INFO  [main] c.p.c.a.ApplicationStartup - Data load started!
+2018-Dec-06 00:57:26.614 INFO  [main] c.p.c.a.ApplicationStartup - Data load complete!
+2018-Dec-06 00:57:26.803 INFO  [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-Dec-06 00:57:26.804 INFO  [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-Dec-06 00:57:26.804 INFO  [Thread-4] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-Dec-06 00:57:26.812 INFO  [Thread-4] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-Dec-06 00:57:26.813 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-Dec-06 00:57:26.819 INFO  [Thread-4] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

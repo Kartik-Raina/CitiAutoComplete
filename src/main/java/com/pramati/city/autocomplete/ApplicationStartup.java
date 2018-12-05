@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,12 +49,12 @@ public class ApplicationStartup implements ApplicationListener<ApplicationReadyE
         // Get the csv file that you want to load
         String fileName = env.getProperty(ApplicationConstants.SOURCE_FILE_NAME_PROPERTY);
         ClassLoader classLoader = new ApplicationStartup().getClass().getClassLoader();
-        File file = new File(classLoader.getResource(fileName).getFile());
-        // This flag ensures that the first list of csv file 
+        // This flag ensures that the first list of csv file
         // as skipped as it contains the headers
         boolean isFirstRow = true;
 
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+        try (BufferedReader br = new BufferedReader(
+                new InputStreamReader(classLoader.getResourceAsStream(fileName)))) {
 
             // Read the csv file line by line
             while ((line = br.readLine()) != null) {
